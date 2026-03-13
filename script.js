@@ -14,7 +14,7 @@ function changeThemeDark() {
     document.getElementById("clicksDisplayed").style.color = "white";
     document.getElementById("button").setAttribute("onclick", "changeThemeWhite()");
     document.getElementById("favicon").setAttribute ("href", "square_dark.ico");
-    document.title = "Darkmode";
+    document.title = "darkmode";
     clicks++;
     localStorage.setItem("clicksStored", clicks);
     updateClicks();
